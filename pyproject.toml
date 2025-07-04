@@ -1,9 +1,10 @@
 [project]
-name = "my-python-script-template"
+name = "pptx-to-markdown"
 version = "0.1.0"
 description = ""
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "pptx2md>=2.0.6",
     "requests>=2.32.3",
 ]
